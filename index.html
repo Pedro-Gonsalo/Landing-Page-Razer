@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
-    <script src="js/index.js"></script>
+    <script src="js/index.js" defer></script>
     <title>Razer</title>
 </head>
 
@@ -23,6 +23,22 @@
     <div class="img-principal">
        <a class="nossa-pagina" href="https://www.razer.com/" target="_blank">Confira Nossa Página</a>
     </div>
+
+    <div style="display: flex;">
+        <div class="imgs_produto">
+            <img class="img_p" id="img_p1" src="img/Fone/fone_img1.png" alt="Imagem 1 do produto" onclick="TrocarImagem(this.src, this.id)">
+            <img class="img_p" id="img_p2" src="img/Fone/fone_img2.png" alt="Imagem 2 do produto" onclick="TrocarImagem(this.src, this.id)">
+            <img class="img_p" id="img_p3" src="img/Fone/fone_img3.png" alt="Imagem 3 do produto" onclick="TrocarImagem(this.src, this.id)">
+            <img class="img_p" id="img_p4" src="img/Fone/fone.png" alt="Imagem 4 do produto" onclick="TrocarImagem(this.src, this.id)">
+        </div>
+
+        <img class="produtos" src="img/Fone/fone_img1.png" alt="Produto">
+
+        <!-- <div class="informacoes">
+    
+        </div> -->
+    </div>
+
 </body>
 
 </html>
