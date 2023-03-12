@@ -94,9 +94,36 @@ body{
 
 .produtos{
     width: 40vw;
+    height: 100%;
     object-fit: cover;
 }
 
+.anterior, .posterior{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background: rgba(56, 56, 56, 0.8);
+}
+
+.anterior{
+    left: 0;
+    bottom: 50%;
+    margin-left: 2%;
+}
+
+.posterior{
+    right: 0;
+    bottom: 50%;
+    margin-right: 2%;
+}
+
+.anterior:hover, .posterior:hover{
+    background: rgba(56, 56, 56, 0.4);
+}
 
 
 

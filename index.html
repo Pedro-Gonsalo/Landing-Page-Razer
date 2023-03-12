@@ -24,7 +24,7 @@
        <a class="nossa-pagina" href="https://www.razer.com/" target="_blank">Confira Nossa Página</a>
     </div>
 
-    <div style="display: flex;">
+    <div style="display: flex; margin-bottom: 30px;">
         <div class="imgs_produto">
             <img class="img_p" id="img_p1" src="img/Fone/fone_img1.png" alt="Imagem 1 do produto" onclick="TrocarImagem(this.src, this.id)">
             <img class="img_p" id="img_p2" src="img/Fone/fone_img2.png" alt="Imagem 2 do produto" onclick="TrocarImagem(this.src, this.id)">
@@ -32,7 +32,12 @@
             <img class="img_p" id="img_p4" src="img/Fone/fone.png" alt="Imagem 4 do produto" onclick="TrocarImagem(this.src, this.id)">
         </div>
 
-        <img class="produtos" src="img/Fone/fone_img1.png" alt="Produto">
+        <div style="position: relative;">
+            <img class="produtos" src="img/Fone/fone_img1.png" alt="Produto">
+            <button class="anterior" onclick="anterior()">a</button>
+            <button class="posterior" onclick="posterior()">p</button>
+        </div>
+
 
         <!-- <div class="informacoes">
     
