@@ -19,14 +19,16 @@ function TrocarImagem(src, id) {
 
 function anterior() {
     num--;
+
     if (num < 0) {
         num = imagens.length - 1;
     }
-    img_fundo.src = imagens[num]
+    img_fundo.src = imagens[num];
 }
 
 function posterior() {
     num++;
+
     if (num >= imagens.length) {
         num = 0;
     }

@@ -104,6 +104,8 @@ body{
     height: 30px;
     border-radius: 15px;
     color: white;
+    font-size: 18px;
+    text-align: center;
     border: none;
     cursor: pointer;
     background: rgba(56, 56, 56, 0.8);
